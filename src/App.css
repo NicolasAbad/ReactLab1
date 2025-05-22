@@ -1,42 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.App {
+font-family: sans-serif;
+text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.TaskList {
+width: 50%;
+margin: 20px auto;
+border: 1px solid #ccc;
+padding: 20px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+ul {
+list-style: none;
+padding: 0;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+li {
+padding: 10px;
+border-bottom: 1px solid #eee;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li:last-child {
+border-bottom: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input[type="text"] {
+padding: 8px;
+margin-right: 10px;
 }
-
-.card {
-  padding: 2em;
+button {
+padding: 8px 12px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
 }
-
-.read-the-docs {
-  color: #888;
+button:hover {
+background-color: #3e8e41;
 }
